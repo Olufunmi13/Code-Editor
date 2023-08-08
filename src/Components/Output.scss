@@ -1,0 +1,64 @@
+/* pre1 */
+
+@import "./global.scss";
+
+.compilation_error{
+    padding: 0.25rem 0.5rem;
+    font-weight: normal;
+    font-size: 0.75rem;
+    color: #EF4444;
+  }
+  
+  /* pre2 */
+  .accepted {
+    padding: 0.25rem 0.5rem;
+    font-weight: normal;
+    font-size: 0.75rem;
+    color: #10B981;
+  }
+  
+  /* pre3 */
+  .time_limit_exceeded {
+    padding: 0.25rem 0.5rem;
+    font-weight: normal;
+    font-size: 0.75rem;
+    color: #EF4444;
+  }
+  
+  /* pre4 */
+  .error {
+    padding: 0.25rem 0.5rem;
+    font-weight: normal;
+    font-size: 0.75rem;
+    color: #EF4444;
+  }
+  
+  /* pre5 */
+  .output_container {
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-clip: text;
+    color: papayawhip;
+    background-image: linear-gradient(to right, #1F2937, #6B7280);
+    margin-bottom: 0.5rem;
+  }
+  
+  /* pre6 */
+  .output_content {
+    width: 50%;
+    background-color: #1E293B;
+    border-radius: 0.375rem;
+    color: rgb(187, 149, 149);
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    overflow-y: auto;
+    margin-right: 10px;
+
+    @include respond(small) {
+      width:100%;
+      height:100%
+    
+    }
+  }
+  
