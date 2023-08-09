@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState,useEffect } from 'react';
 import "./CodeEditor.scss";
 import Editor from '@monaco-editor/react';
 
@@ -10,6 +10,10 @@ const CodeEditor = ({code,language,theme,onChange}) => {
     onChange("code", value);
   };
  
+  useEffect(() => {
+    setValue(code || "");
+  }, [code]);
+
   return (
     <div className='Editor'>
       <Editor

@@ -17,7 +17,7 @@ const Logic = () => {
     const [language, setLanguage] = useState(languageOptions[0]);
     const [processing, setProcessing] = useState(null);
     const [outputDetails, setOutputDetails] = useState(null);
-    const [setSavedCode] = useState('');
+    // const [savedCode, setSavedCode] = useState('');
 
     const handleSave = () => {
       localStorage.setItem('savedCode', code);
@@ -34,9 +34,9 @@ const Logic = () => {
       // Get saved code from local storage
       const savedCode = localStorage.getItem('savedCode');
       if (savedCode) {
-        setSavedCode(savedCode);
+        setCode(savedCode);
       }
-    }, [setSavedCode]);
+    }, [setCode]);
   
     const onSelectChange = (sl) => {
         console.log("selected Option...", sl);
@@ -176,7 +176,7 @@ const Logic = () => {
         />
         
         <OutputWindow  className="output" outputDetails={outputDetails}/>
-        {/* {outputDetails && <OutputDetails outputDetails={outputDetails} />} */}
+        
         </div>
         <button
               onClick={handleCompile}
