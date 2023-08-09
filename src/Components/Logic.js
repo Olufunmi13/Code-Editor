@@ -17,7 +17,6 @@ const Logic = () => {
     const [language, setLanguage] = useState(languageOptions[0]);
     const [processing, setProcessing] = useState(null);
     const [outputDetails, setOutputDetails] = useState(null);
-    // const [savedCode, setSavedCode] = useState('');
 
     const handleSave = () => {
       localStorage.setItem('savedCode', code);
