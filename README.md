@@ -1,11 +1,10 @@
 <!-- PROJECT LOGO -->
-<br />
-<div align="center">
+<div>
   <a href="https://github.com/Olufunmi13/code-editor">
-    <img src="icodeonline.png" alt="Logo" width="80" height="80">
+    <img src="icodeonline.png" alt="Logo">
   </a>
 
-  <h3 align="center">Code Editor</h3>
+  <h3>Code Editor</h3>
 
   <!-- TABLE OF CONTENTS -->
 <details>
@@ -27,22 +26,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Code Editor][icodeOnline.png]](https://example.com)
-
 Here's an online code editor that enables you to compile and execute your code using JudgeO api, you also get to save and share your code by copying the url link or sending your code via email.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 ### Built With
-
-
-* [![React][React.js]][React-url]
-* [![Sass][Sass]][sass-url]
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+* React
+* Sass
 
 ### To-Do
 * User Authentication: Add user authentication to allow users to have their own accounts and save their code privately.
@@ -52,7 +42,4 @@ Here's an online code editor that enables you to compile and execute your code u
 ## Acknowledgments
 
 * [Freecodecamp article](https://www.freecodecamp.org/news/how-to-build-react-based-code-editor/)
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
